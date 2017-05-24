@@ -10,7 +10,7 @@ suite('Testing solution js file.', () => {
 
   let plaintext = '123456';
   let hash = solution.hash(plaintext);
-  let compareMatch = solution.compare(plaintext,hash);
+  let compareMatch = solution.compare(plaintext, hash);
   let compareNoMatch = solution.compare('no match', hash);
 
   test('Hashing works', done => {
